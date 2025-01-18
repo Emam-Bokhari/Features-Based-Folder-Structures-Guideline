@@ -120,7 +120,7 @@ src/
 ├── api/                     # Shared or global API integrations
 │   ├── axiosInstance.ts     # Axios configuration
 │   ├── commonApi.ts         # Shared API methods
-├── app/                     # Global app setup
+├── redux/                   # Global app setup
 │   ├── store.ts             # Redux store configuration
 │   ├── rootReducer.ts       # Combine all reducers
 │   ├── middleware.ts        # Middleware configuration
