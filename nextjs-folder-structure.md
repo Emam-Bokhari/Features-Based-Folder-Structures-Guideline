@@ -1,3 +1,5 @@
+# Next.js Folder Structure
+
 ```
 src/
 ├── app/                          # Next.js app directory
