@@ -12,8 +12,8 @@ A best guideline for creating feature-based folder structures in **Next.js** and
 
 The folder structures for Next.js and React.js are documented in detail:
 
-1. **Next.js Folder Structure**: [View File](./nextjs-folder-structure.md)
-2. **React.js Folder Structure**: [View File](./reactjs-folder-structure.md)
+1. **Next.js Folder Structure**: [View File](./docs/nextjs-folder-structure.md)
+2. **React.js Folder Structure**: [View File](./docs/reactjs-folder-structure.md)
 
 ## 📖 Usage
 
