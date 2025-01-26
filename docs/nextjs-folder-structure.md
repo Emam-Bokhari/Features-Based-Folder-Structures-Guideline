@@ -1,5 +1,75 @@
 # Next.js Folder Structure
 
+## Overview
+
+This folder structure is organized using a modular structure, designed for scalability, maintainability, and separation of concerns. Below is a detailed breakdown of the folder structure:
+
+## Folder Structure Details
+
+### `src/`
+
+The `src/` directory contains all the source code for the application, including pages, components, features, and utilities.
+
+### `app/`
+
+The `app/` directory houses the main application structure, including root layouts and pages for routing and rendering. It follows the Next.js 13 app directory convention for enhanced flexibility in organizing and managing pages.
+
+- **`layout.tsx`**: Defines the root layout for the entire application.
+- **`page.tsx`**: The root page for the application.
+- **`(features)/`**: This folder contains dynamic features that are grouped logically by their functionality. These are routes for different areas of the application, such as dashboard, authentication, and patient management.
+
+### `components/`
+
+The `components/` directory contains reusable UI components, organized into various subfolders based on their functionality:
+
+- **`forms/`**: Contains all form components like login and registration forms.
+- **`layouts/`**: Defines layout components for different page structures.
+- **`ui/`**: Includes common UI elements like buttons, modals, and spinners.
+- **`tables/`**: Contains table components for displaying data like patients, appointments, and reports.
+- **`headers/`**: Header components used throughout the application.
+- **`navigation/`**: Navigation components like the sidebar and top navbar.
+- **`charts/`**: Chart components for visualizing data.
+- **`notifications/`**: Contains notification components like toast alerts and custom notifications.
+
+### `config/`
+
+The `config/` directory holds app-wide configurations, constants, and API client setup.
+
+### `features/`
+
+The `features/` directory is where the core business logic is implemented. Each feature (such as authentication, patient management, or appointments) has its own folder containing APIs, hooks, Redux slices, components, and types related to that feature.
+
+### `hooks/`
+
+Global custom hooks that provide reusable functionality across the application, such as data fetching, debouncing, pagination, and responsiveness hooks.
+
+### `lib/`
+
+The `lib/` folder contains shared utilities and helper functions used throughout the project:
+
+- **`validation/`**: Zod schemas for validation.
+- **`utils/`**: Utility functions like date formatting and ID generation.
+- **`constants/`**: Common constants such as user roles and statuses.
+
+### `store/`
+
+The `store/` directory holds Redux store setup, including slices and typed hooks to interact with the state.
+
+### `styles/`
+
+The `styles/` directory contains all the styles for the project:
+
+- **`themes/`**: Custom theme overrides for UI libraries (e.g., Ant Design).
+- **`globals.css`**: Global CSS for basic styling.
+- **`tailwind.css`**: Tailwind CSS setup if used in the project.
+- **`variables.css`**: Custom CSS variables for design consistency.
+
+### `tests/`
+
+The `tests/` folder contains unit and integration tests, organized by their respective functionality. This ensures that the application’s features and components are thoroughly tested.
+
+## Example Of Folder Structure
+
 ```
 src/
 ├── app/                          # Next.js app directory
