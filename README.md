@@ -1,4 +1,4 @@
-# Features-Based Folder Structures Guideline
+# Features Based Folder Structures Guideline
 
 A best guideline for creating feature-based folder structures in **Next.js** and **React.js** projects. This repository focuses on organizing your codebase for scalability, maintainability, and efficiency.
 
