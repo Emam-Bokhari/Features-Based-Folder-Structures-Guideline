@@ -26,7 +26,7 @@ git clone https://github.com/Emam-Bokhari/Features-Based-Folder-Structures-Guide
 2. Navigate to the project folder:
 
 ```
-cd Features-Based-Folder-Structures-Guideline
+cd Features-Based-Folder-Structures-Guidelines
 ```
 
 ## 🤝 Acknowledgements
